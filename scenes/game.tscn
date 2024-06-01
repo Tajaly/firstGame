@@ -1,8 +1,9 @@
-[gd_scene load_steps=12 format=3 uid="uid://bmkqy4gvnw3t3"]
+[gd_scene load_steps=13 format=3 uid="uid://bmkqy4gvnw3t3"]
 
 [ext_resource type="PackedScene" uid="uid://b4hx4cuqrl8b1" path="res://scenes/character_body_2d.tscn" id="1_so473"]
 [ext_resource type="Texture2D" uid="uid://ctgpd5kjlt8g7" path="res://assets/sprites/world_tileset.png" id="2_nujb4"]
 [ext_resource type="PackedScene" uid="uid://bep7schnhsu8q" path="res://scenes/platform.tscn" id="3_bcg6v"]
+[ext_resource type="PackedScene" uid="uid://bv84q35vxhdwm" path="res://scenes/coin.tscn" id="4_4ofyt"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g5h06"]
 texture = ExtResource("2_nujb4")
@@ -510,7 +511,7 @@ format = 2
 layer_0/tile_data = PackedInt32Array(65535, 0, 0, 0, 0, 0, -65535, 0, 0, 131071, 0, 1, 65536, 0, 1, 131072, 0, 1, 196607, 0, 1, 131073, 0, 1, 131074, 0, 1, 131075, 0, 1, 65539, 0, 1, 65538, 0, 1, 2, 0, 1, 1, 0, 1, 65537, 0, 1, -65534, 0, 0, 3, 393216, 0, 4, 393216, 0, 5, 393216, 0, 65540, 393216, 1, 65541, 393216, 1, 131077, 393216, 1, 131076, 393216, 1, 65544, 393216, 1, 65545, 393216, 1, 131081, 393216, 1, 131080, 393216, 1, 65549, 393216, 1, 65550, 393216, 1, 131086, 393216, 1, 131085, 393216, 1, 13, 393216, 0, 14, 393216, 0, 8, 393216, 0, 9, 393216, 0, -65532, 458752, 0, -65531, 458752, 0, 10, 655360, 0, 11, 655360, 0, 12, 655360, 0, -131056, 131072, 4, 65552, 0, 1, 65553, 0, 1, 65554, 0, 1, 65555, 0, 1, 16, 0, 0, 17, 0, 0, -65518, 0, 0, -131053, 0, 0, 18, 0, 1, 19, 0, 1, -65517, 0, 1, 65558, 196608, 8, 22, 196608, 8, -65514, 196608, 8, -131050, 131072, 4, -196583, 196608, 8, -327655, 131072, 4, -196584, 0, 0, -393198, 589824, 0, -393197, 655360, 0, -393196, 720896, 0, -524277, 589824, 0, -524276, 655360, 0, -524275, 720896, 0, -655339, 589824, 0, -655338, 655360, 0, -655337, 720896, 0, -458736, 262144, 1, -458737, 262144, 1, -655343, 262144, 1, -655342, 262144, 1, -524273, 262144, 0, -524272, 262144, 0, -720879, 262144, 0, -720878, 262144, 0, -655341, 262144, 0, -655334, 262144, 0, -655330, 0, 1, -655329, 0, 1, -655328, 0, 1, -589792, 0, 1, -589793, 0, 1, -589794, 0, 1, -524253, 0, 1, -458716, 0, 1, -458714, 0, 1, -393178, 0, 1, -327642, 0, 1, -327641, 0, 1, -393177, 0, 1, -524249, 0, 1, -458713, 0, 1, -524250, 0, 1, -393180, 0, 1, -327644, 0, 1, -327645, 0, 1, -393181, 0, 1, -458717, 0, 1, -720866, 0, 0, -720865, 0, 0, -720864, 0, 0, -589789, 0, 0, -524252, 0, 0, -589786, 0, 0, -589785, 0, 0, -458712, 0, 0, -393175, 0, 0, -393174, 0, 0, -393173, 0, 0, -393172, 0, 0, -327639, 0, 1, -327638, 0, 1, -327637, 0, 1, -327636, 0, 1, -393176, 0, 1, -327640, 0, 1, -262122, 262144, 0, -262123, 262144, 0, -851911, 131072, 0, -851910, 131072, 0, -851908, 131072, 0, -851909, 131072, 0, -851907, 131072, 0, -786375, 131072, 1, -786374, 131072, 1, -786373, 131072, 1, -786372, 131072, 1, -786371, 131072, 1, -720838, 131072, 1, -720837, 131072, 1, -720836, 131072, 1, -720835, 131072, 1, -655301, 131072, 1, -655300, 131072, 1, -655299, 131072, 1, -589765, 131072, 1, -589764, 131072, 1, -524228, 131072, 1, -524227, 131072, 1, -589763, 131072, 1, -720839, 131072, 1, -655303, 131072, 1, -655302, 131072, 1, -1179583, 131072, 1, -1179582, 131072, 1, -1179581, 131072, 1, -1114047, 131072, 1, -1114046, 131072, 1, -1114045, 131072, 1, -1048509, 131072, 1, -1048510, 131072, 1, -1048511, 131072, 1, -1245119, 131072, 0, -1245118, 131072, 0, -1245117, 131072, 0)
 
 [node name="Player" parent="." instance=ExtResource("1_so473")]
-position = Vector2(0, 1)
+position = Vector2(0, -7)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(1, -4)
@@ -539,3 +540,39 @@ libraries = {
 "": SubResource("AnimationLibrary_cghuc")
 }
 autoplay = "move2"
+
+[node name="Coin2" parent="." instance=ExtResource("4_4ofyt")]
+position = Vector2(137, -1)
+
+[node name="Coin3" parent="." instance=ExtResource("4_4ofyt")]
+position = Vector2(212, 4)
+
+[node name="Coin6" parent="." instance=ExtResource("4_4ofyt")]
+position = Vector2(298, -31)
+
+[node name="Coin7" parent="." instance=ExtResource("4_4ofyt")]
+position = Vector2(338, -61)
+
+[node name="Coin8" parent="." instance=ExtResource("4_4ofyt")]
+position = Vector2(296, -89)
+
+[node name="Coin9" parent="." instance=ExtResource("4_4ofyt")]
+position = Vector2(484, -178)
+
+[node name="Coin10" parent="." instance=ExtResource("4_4ofyt")]
+position = Vector2(345, -161)
+
+[node name="Coin11" parent="." instance=ExtResource("4_4ofyt")]
+position = Vector2(708, -139)
+
+[node name="Coin12" parent="." instance=ExtResource("4_4ofyt")]
+position = Vector2(935, -220)
+
+[node name="Coin4" parent="." instance=ExtResource("4_4ofyt")]
+position = Vector2(170, 2)
+
+[node name="Coin" parent="." instance=ExtResource("4_4ofyt")]
+position = Vector2(63, -14)
+
+[node name="Coin5" parent="." instance=ExtResource("4_4ofyt")]
+position = Vector2(21, -12)
