@@ -13,3 +13,5 @@ func _process(delta):
 
 func _on_body_entered(body):
 	print("+1 coin")
+	queue_free()
+
