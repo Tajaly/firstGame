@@ -637,6 +637,13 @@ autoplay = "move2"
 position = Vector2(38, 7)
 script = ExtResource("7_7j3sc")
 
+[node name="RayCastRight" type="RayCast2D" parent="Enemies/Enemy"]
+target_position = Vector2(7, 0)
+
+[node name="RayCastLeft" type="RayCast2D" parent="Enemies/Enemy"]
+position = Vector2(2, 0)
+target_position = Vector2(-7, 0)
+
 [node name="Enemy2" parent="Enemies" instance=ExtResource("6_bji5s")]
 position = Vector2(146, 6)
 
