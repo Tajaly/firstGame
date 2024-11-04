@@ -7,4 +7,5 @@ My goal was to dive into the game development process and understand the resourc
 Afterward, I understood why over 1000 people were needed to create a game like The Witcher 3.
 
 I have another game idea in mind that I plan to work on in the future!
-![image](https://github.com/user-attachments/assets/c0538494-e70e-410d-9d2b-b1f0ea065601)
+![image](https://github.com/user-attachments/assets/988a4dbf-d41c-4a28-b7cb-5383a4188803)
+
