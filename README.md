@@ -1,3 +1,4 @@
+# My first game
 This is the first little game, created as a practice project. 
 I used Godot, a free and open-source game engine, and programmed it in GDScript.
 I used GIMP to sketch and animate my dog, which was a fun experience. 
